@@ -19,8 +19,23 @@ There are 16 layers in this in which there is **one input layer** and **one outp
 **FIG 1**
 
 ## Weights
-These weights are very important of the nueral networks. This hleps the NN to calculate thee output of the data feature. 
+These weights are significant of the neural networks. This helps the NN to calculate the output of the data feature. 
 ![formaulae Image](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/Screenshot-from-2020-02-03-22-14-21.png)
-Here the w represents the weights, X is the input from prev layer and b is the bias 
-Initially the weights are initialize to random value but not zero (since the value is gettinh multiplied). 
-Here the 
+
+**FIG 2**
+
+Here the w represents the weights, X is the input from the prev layer, and b is the bias. 
+Initially, the weights are initialized to random value but not zero (since the value is getting multiplied).
+Deep Learning is considered the successor of machine Leaning. So MAchine learning is basically a training model to get perfect results matching the labelled diagram.
+So what it is that we train actually in the model? It is the weight of what we train.
+As we can see that the formulae in **FIG 2** (the first line). 
+W is the weight that gets updated simultaneously while training. 
+When we get the perfect weights, we stop training the model, and we get the final full trained model. 
+Now the big questions are which weights should be selected?
+The weights which give the prediction and accuracy value high, then we can say that the weights are perfect for that value.
+
+### What are Weights.
+As we can see in **FIG 1** the nodes are comnected with the lines that means while training the value psses throught he nodes using these lines.
+These lines are only considered as the weights. The wieghts are bascally represented as the matrix. The dimension of the matrix is (n * m) where n represents the no. of nodes on the left side (previous layer) and m represents the no. of nodes presents in right side (next layer). 
+I fyou see in **FIG 1** the weights between hidden layer 1 and hidden layer 2 will be of matrix (no. of nodes in hidden layer 2 * no. of nodes in hidden layer 1) i.e 
+
