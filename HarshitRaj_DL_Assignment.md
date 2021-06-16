@@ -1,1 +1,1 @@
-# NueralNetworks
+# Nueral Networks
