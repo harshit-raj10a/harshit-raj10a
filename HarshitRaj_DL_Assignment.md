@@ -13,6 +13,9 @@ The **input layer** takes in the data feature. The **hidden layer** handles the 
 There will be only one Input Layer and one Output Layer, but the hidden layer can consist of multiple layers based on the problems' complexity.
 For example, a very famous model is used for image recognition called **VGG-16(Visual Geometry Group-16)** the no. Sixteen in this represent the layers present in this particular neural network.
 There are 16 layers in this in which there is **one input layer** and **one output layer** and **14 hidden layers**.
+All the layers consist of nodes and those noes holds the value after calculation
+### INPUT LAYER
+The input layer is starting layer of nueral layer. It 
 
 ![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-327x238.jpg)
 
@@ -37,5 +40,10 @@ The weights which give the prediction and accuracy value high, then we can say t
 ### What are Weights.
 As we can see in **FIG 1** the nodes are comnected with the lines that means while training the value psses throught he nodes using these lines.
 These lines are only considered as the weights. The wieghts are bascally represented as the matrix. The dimension of the matrix is (n * m) where n represents the no. of nodes on the left side (previous layer) and m represents the no. of nodes presents in right side (next layer). 
-I fyou see in **FIG 1** the weights between hidden layer 1 and hidden layer 2 will be of matrix (no. of nodes in hidden layer 2 * no. of nodes in hidden layer 1) i.e 
+I fyou see in **FIG 1** the weights between hidden layer 1 and hidden layer 2 will be of matrix (no. of nodes in hidden layer 2 * no. of nodes in hidden layer 1) i.e  4*4.
+
+It is important to do matrix multiplication as you can see in **FIG 2** because we don't get only on efeature of data in real world problems.
+For multiple feature we need muliple nodes in input layer and then compute the output correctly we need to use same or more no. of nodes in every hidden layer.
+
+
 
