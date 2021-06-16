@@ -15,6 +15,7 @@ For example, a very famous model is used for image recognition called **VGG-16(V
 There are 16 layers in this in which there is **one input layer** and **one output layer** and **14 hidden layers**.
 
 ![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-327x238.jpg)
+
     **FIG 1**
 
 ## Weights
