@@ -14,4 +14,4 @@ There will be only one Input Layer and one Output Layer but HIdden layer can con
 For example, There is a very famous model used for image recognition called as **VGG-16(Visual Geometry Group-16)** the no. 16 in this represent the layers present in this particular nueral network.
 There are 16 layers in this in which there is **one input layer** and **one output layer** and **14 hidden layer**.
 
-[![Nueral Netwokk image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltrends.com%2Fcool-tech%2Fwhat-is-an-artificial-neural-network%2F&psig=AOvVaw0wP4Q6jkqOltjuB1Ht14ZZ&ust=1623906799840000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjyh7Kym_ECFQAAAAAdAAAAABAK)]
+[![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-791x388.jpg)]
