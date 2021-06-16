@@ -16,7 +16,7 @@ There are 16 layers in this in which there is **one input layer** and **one outp
 
 ![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-327x238.jpg)
 
-    **FIG 1**
+**FIG 1**
 
 ## Weights
 These weights are very important of the nueral networks. This hleps the NN to calculate thee output of the data feature. 
