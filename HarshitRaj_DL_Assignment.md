@@ -19,3 +19,6 @@ There are 16 layers in this in which there is **one input layer** and **one outp
 ## Weights
 These weights are very important of the nueral networks. This hleps the NN to calculate thee output of the data feature. 
 ![formaulae Image](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/Screenshot-from-2020-02-03-22-14-21.png)
+Here the w represents the weights, X is the input from prev layer and b is the bias 
+Initially the weights are initialize to random value but not zero (since the value is gettinh multiplid). 
+Here the 
