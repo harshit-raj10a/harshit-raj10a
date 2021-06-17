@@ -30,8 +30,18 @@ Every node in this layer will have an **activation function**. **Sigmoid** and *
 #### Sigmoid Function
 ![Sigmoid FUnction](https://analyticsindiamag.com/wp-content/uploads/2018/01/sigmoid-equation.png)
 
+**FIG SIGMOIF FUNC**
+
+This function usually keep the value from 0 to 1. If the value of **x ** is **negetive** then the value of **f(x)** will be **nearer to zero** and if the value of **x** is **possitive** then the value of **f(x)** will be **nearer to 1** and if the value of **x** is **zero** then the value of **f(x) is zero**.
+***NOte:- Here x is not the input value from the input layer instead it is the value of the node*** 
+
+#### ReLu Function
+![ReLu Function](https://www.researchgate.net/profile/Stefano-Romanazzi/publication/325226633/figure/fig6/AS:627667619549186@1526659030854/Plot-of-the-ReLU-function.png)
+
+
 
 ![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-327x238.jpg)
+
 
 **FIG 1**
 
