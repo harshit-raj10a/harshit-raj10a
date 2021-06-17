@@ -28,7 +28,7 @@ Hidden layer is itself combination of multiple layer as you can see in **FIG 1**
 In this layer every sub layer will have an extra node for the bias.
 Every node in this layer will have an **activation function**. **Sigmoid** and **Relu** are the most commonly used activation function. These fucntion keep the value of the node and weights in a particular range.
 #### Sigmoid Function
-![Sigmoid FUnction](https://qph.fs.quoracdn.net/main-qimg-0c921e324b298fdc72027d25ee584db3.webp)
+![Sigmoid FUnction](https://analyticsindiamag.com/wp-content/uploads/2018/01/sigmoid-equation.png)
 
 
 ![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-327x238.jpg)
