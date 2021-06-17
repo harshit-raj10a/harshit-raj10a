@@ -43,6 +43,27 @@ FIG ReLu FUNCTION
 This function uses the max function. In this the **negetive** values of **x** is equalized to 0 where as **x** value is the same as it is. The negetive value will always decrese the vaue of fyrther weights and also the values of next layers nodes.
 ***Note:- Here x is not the input value from the input layer instead it is the value of the node***
 
+#### SOFTMAX FUNCTION
+This fumction convert the value of the nodes into the probablity with respect to the sum of the value of all the nodes in the layer.
+For exam a layer have 5 nodes whith value 12, 34, 52, 43, 28. After applying softmax function to ecah node the value will be 
+Node_1:-12/(12+34+52+43+28)==0.071 * 100==7.1%
+Node_2:-34/(12+34+52+43+28)==0.201 * 100==20.1%
+Node_3:-52/(12+34+52+43+28)==0.307 * 100==30.7%
+Node_4:-43/(12+34+52+43+28)==0.254 * 100==25.4%
+Node_5:-28/(12+34+52+43+28)==0.165 * 100==16.5%
+sum==                                     99.8
+this all values will add up to be 100 or near to it.
+
+### OUTPUT LAYER
+This layer is the last layer of the model. It gives out the output what the model has predicted. This layer also have activation fucntion but the activation layer is based on the no. of nodes in output layer. 
+For example if the model is classifying only two object like dog vs cat model. SO the model will either detect cat or dog. This is called as binary classification (0 and 1).
+This model will have only two nodes in output layer. 
+For this this the ***SIGMOID FUNCTION*** is used as the ***activation function***. If the data feature is representing cat and the model classifying correctly it as a cat the then the first node will have the highest possitive value and another will have lowest possitive value or it'll be equal to zero.
+When we are using a model which have to classify multiple classes then we have to use ***SOFTMAX FUNCTION*** as the activation function for every node in output layer.
+For example if the model is classifying cat, dog, pig, cow and crow. Then the ***softmax function*** wil be used as ***activation fucntion*** for each node of output layer.
+This function will increase the value of one node and decrese the value of rest of the node. If the input data feature is labelled as ***pig*** aand the model is clasifyin it correct then the ***node value*** of ***pig*** is ***increased*** and rest all node value is decreased. The node with the highest value is the oupu.
+
+
 ![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-327x238.jpg)
 
 
@@ -70,7 +91,10 @@ These lines are only considered as the weights. The wieghts are bascally represe
 I fyou see in **FIG 1** the weights between hidden layer 1 and hidden layer 2 will be of matrix (no. of nodes in hidden layer 2 * no. of nodes in hidden layer 1) i.e  4*4.
 
 It is essential to do matrix multiplication, as we can see in **FIG 2**, because we do not get only one feature of data in real-world problems.
-We need multiple nodes in the input layer for multiple features and then compute the output correctly; we need to use the same or more no. of nodes in every hidden layer.
+We need multiple nodes in the input layer for multiple features.
+In the **FIG 2** the Z represents the value of one node in the next hidden layer.
+
+
 
 
 
