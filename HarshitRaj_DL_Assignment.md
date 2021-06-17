@@ -92,9 +92,12 @@ I fyou see in **FIG 1** the weights between hidden layer 1 and hidden layer 2 wi
 
 It is essential to do matrix multiplication, as we can see in **FIG 2**, because we do not get only one feature of data in real-world problems.
 We need multiple nodes in the input layer for multiple features.
-In the **FIG 2** the Z represents the value of one node in the next hidden layer.
-
-
-
-
-
+In the **FIG 2** the Z represents the value of nodes in the next hidden layer.
+So now lets examine the matrix mutiplication.
+**Z=W(t)X+b.**
+The dimension of ***W*** is 4 * 2 (4 rows and 2 collumns) and dimension of ***W(t)*** is 2 * 4 (2 rows and 4 collumns).
+As we have discussed above the dimension of W is ( (n * m) where n represents the no. of nodes on the left side (previous layer) and m represents the no. of nodes presents in right side (next layer)) and in ***FIG 2*** the no. of nodes of X is 4 and the no. of nodes in next layer is 2( we can derive this from the dimension of the weights).
+and the bias is also of the same shape of ***Z*** since it's getting added to the ***Z*** matrix.
+And after the multiplication matrix we get the final value of the ***Z*** matrix. Here the shape of ***Z Matrix*** is 2 * 1 that means there are 2 nodes in the next layer for which we are calculating the node values.
+Now, if the next layer is another hidden layer then we have to apply sigmoid or relu function on the node values or on the values of Z matrix and it sholud be applied element wise.
+But if the next layer is the output layer then the activation layer should be used based on the model classyfier as discussed above. Here also the activation function should be applied element wise.
