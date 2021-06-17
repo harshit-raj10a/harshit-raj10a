@@ -15,18 +15,18 @@ For example, a very famous model is used for image recognition called **VGG-16(V
 There are 16 layers in this in which there is **one input layer** and **one output layer** and **14 hidden layers**.
 All the layers consist of nodes and those noes holds the value after calculation
 ### INPUT LAYER
-The input layer is starting layer of nueral layer. It takes the input from the data base (data feature is the actuall input) and then the processing of the that input is done in further layers. 
+The input layer is starting layer of the neural layer. It takes the input from the database (data feature is the actual input), and then the processing of that input is done in further layers. 
 The no. of features decide the no. of nodes in the input layer 
-For example if there are **F** no. of feature then there will be **F** no. of nodes in input layers.
-In **FIG 1** there are 3 nodes in input layer so the input layer will take three features of the data as input.
-In  this layer there will be no activation function and no normalzation of data not performed. Dta normalization is done before the input layer.
+For example, if there are **F** no. of feature, there will be **F** no. of nodes in input layers.
+In **FIG 1**, there are three nodes in the input layer so that the input layer will take three features of the data as input.
+In this layer, there will be no activation function and no normalization of data not performed. 
 ### HIDDEN LAYER
-This layer is the internal layer and the main layer, every computation of the weights and proceesing of data features are also done here.
-In this layer no. of nodes are optional to keep but it is recomended that if model should perform better we should use the equal no. of nodes as in input layer or more than that.
-For example, if there are **n** nodes in input layer then there should be n nodes or more than n node in hidden layer.
-Hidden layer is itself combination of multiple layer as you can see in **FIG 1** there are 2 layers in hidden layer.
-In this layer every sub layer will have an extra node for the bias.
-Every node in this layer will have an **activation function**. **Sigmoid** and **Relu** are the most commonly used activation function. These fucntion keep the value of the node and weights in a particular range.
+This layer is the internal layer, every computation of the weights and processing of data features are also done here.
+In this layer, no. of nodes are optional to keep, but it is recommended that if the model performs better, we should use the equal no. of nodes as in the input layer or more.
+For example, if there are **n** nodes in the input layer, there should be n nodes or more than n nodes in the hidden layer.
+The hidden layer is itself a combination of multiple layers; as we can see in **FIG 1**, there are two layers in the hidden layer.
+In this layer, every sub-layer will have an extra node for the bias.
+Every node in this layer will have an **activation function**. **Sigmoid** and **Relu** are the most commonly used activation function. This function keeps the value of the node and weights in a particular range.
 
 
 #### Sigmoid Function
@@ -34,14 +34,14 @@ Every node in this layer will have an **activation function**. **Sigmoid** and *
 FIG SIGMOIF FUNCTION
 
 This function usually keep the value from 0 to 1. If the value of **x ** is **negetive** then the value of **f(x)** will be **nearer to zero** and if the value of **x** is       **possitive** then the value of **f(x)** will be **nearer to 1** and if the value of **x** is **zero** then the value of **f(x) is zero**.
-***Note:- Here x is not the input value from the input layer instead it is the value of the node***
+***Note:- Here x is not the input value from the input layer instead, it is the value of the node***
 
 #### ReLu Function
 ![ReLu Function](https://i0.wp.com/highontechs.com/wp-content/uploads/2020/06/activation-functions3-3.jpg?resize=351%2C232&ssl=1)
 FIG ReLu FUNCTION
 
-This function uses the max function. In this the **negetive** values of **x** is equalized to 0 where as **x** value is the same as it is. The negetive value will always decrese the vaue of fyrther weights and also the values of next layers nodes.
-***Note:- Here x is not the input value from the input layer instead it is the value of the node***
+This function uses the max function. In this, the **negative** values of **x** are equalized to 0, whereas the **x** value is the same as it is. The negative value will always decrease the value of further weights and also the values of next layers nodes.
+***Note:- Here x is not the input value from the input layer instead, it is the value of the node***
 
 #### SOFTMAX FUNCTION
 This fumction convert the value of the nodes into the probablity with respect to the sum of the value of all the nodes in the layer.
@@ -55,13 +55,13 @@ sum==                                     99.8
 this all values will add up to be 100 or near to it.
 
 ### OUTPUT LAYER
-This layer is the last layer of the model. It gives out the output what the model has predicted. This layer also have activation fucntion but the activation layer is based on the no. of nodes in output layer. 
-For example if the model is classifying only two object like dog vs cat model. SO the model will either detect cat or dog. This is called as binary classification (0 and 1).
-This model will have only two nodes in output layer. 
-For this this the ***SIGMOID FUNCTION*** is used as the ***activation function***. If the data feature is representing cat and the model classifying correctly it as a cat the then the first node will have the highest possitive value and another will have lowest possitive value or it'll be equal to zero.
-When we are using a model which have to classify multiple classes then we have to use ***SOFTMAX FUNCTION*** as the activation function for every node in output layer.
-For example if the model is classifying cat, dog, pig, cow and crow. Then the ***softmax function*** wil be used as ***activation fucntion*** for each node of output layer.
-This function will increase the value of one node and decrese the value of rest of the node. If the input data feature is labelled as ***pig*** aand the model is clasifyin it correct then the ***node value*** of ***pig*** is ***increased*** and rest all node value is decreased. The node with the highest value is the oupu.
+This layer is the last layer of the model. It gives out the output of what the model has predicted. This layer also has an activation function, but the activation layer is based on the no. of nodes in the output layer. 
+For example, if the model is classifying only two objects like the dog vs cat model. SO the model will either detect cat or dog. This is called binary classification (0 and 1).
+This model will have only two nodes in the output layer. 
+For this this the ***SIGMOID FUNCTION*** is used as the ***activation function***. Suppose the data feature is representing a cat and the model classifying correctly it as a cat. In that case, the first node will have the highest positive value, and another will have the lowest positive value or equal to zero.
+When we use a model that has to classify multiple classes, we have to use ***SOFTMAX FUNCTION*** as the activation function for every node in the output layer.
+For example, if the model is classifying cat, dog, pig, cow and crow. Then the ***softmax function*** will be used as ***activation function*** for each node of the output layer.
+This function will increase the value of one node and decrease the value of the rest of the node. If the input data feature is labelled as ***pig*** and the model is classifying it correct, then the ***node value*** of ***pig*** is ***increased*** and rest all node value is decreased. The node with the highest value is the output.
 
 
 ![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-327x238.jpg)
@@ -96,8 +96,8 @@ In the **FIG 2** the Z represents the value of nodes in the next hidden layer.
 So now lets examine the matrix mutiplication.
 **Z=W(t)X+b.**
 The dimension of ***W*** is 4 * 2 (4 rows and 2 collumns) and dimension of ***W(t)*** is 2 * 4 (2 rows and 4 collumns).
-As we have discussed above the dimension of W is ( (n * m) where n represents the no. of nodes on the left side (previous layer) and m represents the no. of nodes presents in right side (next layer)) and in ***FIG 2*** the no. of nodes of X is 4 and the no. of nodes in next layer is 2( we can derive this from the dimension of the weights).
-and the bias is also of the same shape of ***Z*** since it's getting added to the ***Z*** matrix.
-And after the multiplication matrix we get the final value of the ***Z*** matrix. Here the shape of ***Z Matrix*** is 2 * 1 that means there are 2 nodes in the next layer for which we are calculating the node values.
-Now, if the next layer is another hidden layer then we have to apply sigmoid or relu function on the node values or on the values of Z matrix and it sholud be applied element wise.
-But if the next layer is the output layer then the activation layer should be used based on the model classyfier as discussed above. Here also the activation function should be applied element wise.
+As we have discussed above, the dimension of W is ( (n * m), where n represents the no. of nodes on the left side (the previous layer) and m represents the no. of nodes presents on the right side (next layer)). In ***FIG 2***, the no. of nodes of X is four and the no. of nodes in the next layer is 2( we can derive this from the dimension of the weights).
+And the bias is also of the same shape as ***Z*** since it is getting added to the ***Z*** matrix.
+And after the multiplication matrix, we get the final value of the ***Z*** matrix. Here the shape of ***Z Matrix*** is 2 * 1, which means there are two nodes in the next layer for calculating the node values.
+Now, if the next layer is another hidden layer, then we have to apply the sigmoid or ReLu function on the node values or on the values of the Z matrix, and it should be applied element-wise.
+But if the next layer is the output layer, then the activation layer should be used based on the model classifier as discussed above. Here also the activation function should be applied element-wise.
