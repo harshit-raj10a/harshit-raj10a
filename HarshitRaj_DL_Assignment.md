@@ -31,19 +31,17 @@ Every node in this layer will have an **activation function**. **Sigmoid** and *
 
 #### Sigmoid Function
 ![Sigmoid FUnction](https://analyticsindiamag.com/wp-content/uploads/2018/01/sigmoid-equation.png)
-
-**FIG SIGMOIF FUN**
+FIG SIGMOIF FUNCTION
 
 This function usually keep the value from 0 to 1. If the value of **x ** is **negetive** then the value of **f(x)** will be **nearer to zero** and if the value of **x** is       **possitive** then the value of **f(x)** will be **nearer to 1** and if the value of **x** is **zero** then the value of **f(x) is zero**.
-***NOte:- Here x is not the input value from the input layer instead it is the value of the node*
+***Note:- Here x is not the input value from the input layer instead it is the value of the node***
 
 #### ReLu Function
 ![ReLu Function](https://i0.wp.com/highontechs.com/wp-content/uploads/2020/06/activation-functions3-3.jpg?resize=351%2C232&ssl=1)
+FIG ReLu FUNCTION
 
-**FIG ReLu**
-
-This function uses the max function. In this the negetive values of x is equalized to 0 where as x value is the same as it is. The negetive value will always decrese the vaue of fyrther weights and also the values of next layers nodes.
-
+This function uses the max function. In this the **negetive** values of **x** is equalized to 0 where as **x** value is the same as it is. The negetive value will always decrese the vaue of fyrther weights and also the values of next layers nodes.
+***Note:- Here x is not the input value from the input layer instead it is the value of the node***
 
 ![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-327x238.jpg)
 
