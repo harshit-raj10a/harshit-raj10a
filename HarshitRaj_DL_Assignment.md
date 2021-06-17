@@ -15,7 +15,10 @@ For example, a very famous model is used for image recognition called **VGG-16(V
 There are 16 layers in this in which there is **one input layer** and **one output layer** and **14 hidden layers**.
 All the layers consist of nodes and those noes holds the value after calculation
 ### INPUT LAYER
-The input layer is starting layer of nueral layer. It 
+The input layer is starting layer of nueral layer. It takes the input from the data base (data feature is the actuall input) and then the processing of the that input is done in further layers. 
+The no. of features decide the no. of nodes in the input layer 
+For example if there are **F** no. of feature then there will be **F** no. of nodes in input layers
+
 
 ![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-327x238.jpg)
 
