@@ -27,16 +27,23 @@ For example, if there are **n** nodes in input layer then there should be n node
 Hidden layer is itself combination of multiple layer as you can see in **FIG 1** there are 2 layers in hidden layer.
 In this layer every sub layer will have an extra node for the bias.
 Every node in this layer will have an **activation function**. **Sigmoid** and **Relu** are the most commonly used activation function. These fucntion keep the value of the node and weights in a particular range.
+
+
 #### Sigmoid Function
-![Sigmoid FUnction](https://analyticsindiamag.com/wp-content/uploads/2018/01/sigmoid-equation.png)
+![Sigmoid FUnction](https://analyticsindiamag.com/wp-content/uploads/2018/01/sigmoid-equation.p
 
-**FIG SIGMOIF FUNC**
+**FIG SIGMOIF FUN**
 
-This function usually keep the value from 0 to 1. If the value of **x ** is **negetive** then the value of **f(x)** will be **nearer to zero** and if the value of **x** is **possitive** then the value of **f(x)** will be **nearer to 1** and if the value of **x** is **zero** then the value of **f(x) is zero**.
-***NOte:- Here x is not the input value from the input layer instead it is the value of the node*** 
+This function usually keep the value from 0 to 1. If the value of **x ** is **negetive** then the value of **f(x)** will be **nearer to zero** and if the value of **x** is       **possitive** then the value of **f(x)** will be **nearer to 1** and if the value of **x** is **zero** then the value of **f(x) is zero**.
+***NOte:- Here x is not the input value from the input layer instead it is the value of the node*
 
 #### ReLu Function
 ![ReLu Function](https://i0.wp.com/highontechs.com/wp-content/uploads/2020/06/activation-functions3-3.jpg?resize=351%2C232&ssl=1)
+
+**FIG ReLu**
+
+This function uses the max function. In this the negetive values of x is equalized to 0 where as x value is the same as it is. The negetive value will always decrese the vaue of fyrther weights and also the values of next layers nodes.
+
 
 ![Nueral Netwokk image](https://icdn.digitaltrends.com/image/digitaltrends/artificial_neural_network_1-327x238.jpg)
 
