@@ -30,7 +30,7 @@ Every node in this layer will have an **activation function**. **Sigmoid** and *
 
 
 #### Sigmoid Function
-![Sigmoid FUnction](https://analyticsindiamag.com/wp-content/uploads/2018/01/sigmoid-equation.p
+![Sigmoid FUnction](https://analyticsindiamag.com/wp-content/uploads/2018/01/sigmoid-equation.png)
 
 **FIG SIGMOIF FUN**
 
